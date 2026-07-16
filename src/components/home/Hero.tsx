@@ -29,8 +29,8 @@ export default function Hero() {
 
           {/* Content Wrapper */}
           <div className="relative z-20 flex flex-col items-center justify-center h-full text-center px-6 md:px-12 max-w-5xl mx-auto">
-            {/* Mini Premium Badge */}
-            <div className="mb-4 opacity-0 animate-[fadeIn_0.5s_ease-out_forward] style={{ animationFillMode: 'forwards' }}">
+            {/* Mini Premium Badge (Fixed Syntax) */}
+            <div className="mb-4 animate-fade-in">
               <span className="text-xs font-bold tracking-[0.2em] text-orange-400 uppercase bg-orange-500/10 backdrop-blur-md px-4 py-2 rounded-full border border-orange-500/20 shadow-[0_0_15px_rgba(249,115,22,0.1)]">
                 Next-Gen Ecosystem
               </span>
