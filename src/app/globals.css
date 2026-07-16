@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #191a20;
+  --secondary: #101010;
+  --ternary: #f26e21;
+}
+
+body,
+p {
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-poppins), sans-serif;
+}
