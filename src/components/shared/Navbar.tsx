@@ -298,7 +298,7 @@ export default function Navbar() {
                 >
                   {item.name}
                   <div
-                    className={`absolute bottom-0 left-3 right-3 h-[2px] transition-all duration-300 ${
+                    className={`absolute bottom-0 left-3 right-3 h-0.5 transition-all duration-300 ${
                       isActive
                         ? "bg-gradient-to-r from-orange-500 to-amber-500"
                         : "bg-transparent group-hover:bg-slate-500 scale-x-0 group-hover:scale-x-100"
